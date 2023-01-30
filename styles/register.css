@@ -1,0 +1,128 @@
+@import url(global.css);
+
+body {
+   color: var(--blue-800);
+   width: 100vw;
+   height: 100vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.box-register {
+   width:600px;
+   padding: 20px;
+}
+
+.box-register>h2{
+   text-align: center;
+   font-size: 3.4rem;
+   margin-bottom: 20px;
+}
+
+.form-register {
+   display: flex;
+   flex-direction: column;
+   padding-top: 10px;
+}
+
+.form-register>label {
+   font-size: 1.8rem;
+   padding: 10px 0;
+   color: var(--black-300);
+}
+
+.form-register>input {
+   height: 72px;
+   font-size: 1.8rem;
+   padding-left: 5px;
+   background-color: transparent;
+   border: 1px solid var(--gray-300);
+   border-radius: 5px;
+   color: var(--blue-800);
+}
+
+input:focus,
+textarea:focus {
+   border-color: var(--input-focus) !important;
+   box-shadow: var(--blue-400-shadow) 0px 0px 0px 4px;
+}
+
+input:invalid,
+textarea:focus {
+   border-color: var(--gray-300);
+}
+
+input:valid,
+textarea:focus {
+   border-color: var(--input-valid);
+}
+
+.form-register>button {
+   background-color: var(--blue-400);
+   border-radius: 5px;
+   color: white;
+   font-size: 1.8rem;
+   border: none;
+   height: 72px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.navigation {
+   padding: 30px 60px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navigation>h1 {
+   font-size: 2.8rem;
+}
+
+#nav-link {
+   border: 1px solid var(--gray-300);
+   border-radius: 5px;
+   color: var(--blue-800);
+   letter-spacing: 1px;
+   font-size: 1.3rem;
+   text-decoration: none;
+   padding: 15px 30px;
+}
+
+#link {
+   color: var(--blue-800);
+   font-size: 1.2rem;
+}
+
+#link:hover {
+   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+   .navigation{
+      padding: 30px;
+   }
+ }
+
+ @media only screen and (max-width: 450px) {
+   .navigation{
+      padding: 15px 15px 0px 15px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .box-register{
+      padding: 10px;
+   }
+   .box-register>h2{
+      margin-bottom: 0;
+   }
+   .form-register>label{
+      padding: 0;
+   }
+ }

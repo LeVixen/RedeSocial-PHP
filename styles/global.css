@@ -1,0 +1,61 @@
+:root {
+   --black-800: #080808;
+   --black-400: #13131350;
+   --black-300:#131313;
+   --gray-800: #10101042;
+   --gray-300: #9B99AF;
+   --blue-800: #050038;
+   --blue-400:#4262FF;
+   --blue-300:#455bed;
+   --blue-300-shadow:#455bedda;
+   --blue-400-shadow:hsla(230, 100%, 63%, 0.302);
+
+   --font-white: #ffffff;
+   --bg-white: #ffffff;
+
+   --white-300:#ececec;
+
+   --border-white: #ffffff;
+   --border-yellow: #ffff00;
+   --border-gold: #e7a900;
+   --border-blue-800: #050038;
+   --border-green: #91ff00;
+
+   --btn-hover: #008000;
+   
+   --input-valid: #008000 ;
+   --input-invalid:#ff0000;
+   --input-focus:#4262FF; 
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+ul {
+   list-style: none;
+}
+
+input {
+   outline: 0;
+   background: none;
+}
+
+input::placeholder {
+   color: rgba(255, 255, 255, 0.123);
+}
+
+button{
+   border: none;
+   transition: .3s ease-out
+}
+
+button:hover{
+   cursor: pointer;
+   transition: .3s ease-in;
+}
+
+
+

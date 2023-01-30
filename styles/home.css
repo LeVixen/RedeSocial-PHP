@@ -1,0 +1,263 @@
+@import url(global.css);
+
+body {
+   background-color: var(--white-300);
+   color: var(--blue-800);
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+   background-color: transparent;
+}
+
+#open-modal {
+   font-size: 1.4rem;
+   border: 1px solid var(--blue-300);
+   color: var(--blue-300);
+   border-radius: 5px;
+   width: 100%;
+   height: 50px;
+   background-color: var(--white-300);
+}
+
+#open-modal:hover {
+   background-color: var(--bg-white);
+}
+
+.container {
+   width: 1920px;
+   height: 100%;
+   display: flex;
+   padding: 20px;
+   justify-content: space-between;
+}
+
+.content-box-left {
+   color: white;
+   width: 600px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-right: 30px;
+}
+
+.content-box-logo {
+   height: 100px;
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   padding: 0px 0px 0px 20px;
+   background-color: var(--blue-800);
+}
+
+.box-logo {
+   display: flex;
+   width: 55px;
+   height: 55px;
+   justify-content: center;
+   margin-right: 10px;
+}
+
+.box-logo>img {
+   width: 55px;
+   border-radius: 50%;
+   border: 2px solid var(--border-white);
+}
+
+.box-logout {
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.content-box-logo>a {
+   height: 100%;
+   padding: 10px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: baseline;
+   color: white;
+   font-size: 1rem;
+   text-decoration: none;
+}
+
+#username {
+   font-weight: normal;
+   font-size: 1.7rem;
+}
+
+.content-box-itens {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   border-radius: 5px;
+}
+
+.content-container {
+   width: 100%;
+   height: 100%;
+   display: flex;
+}
+
+.content-bar {
+   width: 50px;
+   margin-right: 5px;
+   height: 100%;
+   border-radius: 5px;
+   background-color: var(--blue-800);
+}
+
+.box-left {
+   width: 100%;
+   height: 45px;
+   display: flex;
+   border-radius: 5px 5px 0px 0px;
+   align-items: center;
+   justify-content: center;
+   background: var(--border-gold);
+}
+
+.box-left>input {
+   width: 100%;
+   border: none;
+   height: 30px;
+   margin: 5px;
+   border-radius: 15px;
+   font-size: 19px;
+   padding-left: 15px;
+   color: var(--font-white);
+   background-color: var(--black-300);
+}
+
+.container-user {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   padding: 15px;
+   align-items: center;
+   background-color: var(--bg-white);
+}
+
+.container-friend {
+   width: 100%;
+}
+
+.box-envolve {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+
+.box-friend {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   height: 80px;
+   border-radius: 5px;
+   color: var(--blue-800);
+   border: 1px solid var(--blue-300);
+   background-color: var(--bg-white);
+   padding-left: 10px;
+   cursor: pointer;
+   transition: .2s ease-out;
+}
+
+.box-friend:hover {
+   transition: .2s ease-in;
+   color: var(--font-white);
+   background-color: var(--blue-300);
+}
+
+.user-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.user-info>h2 {
+   font-size: 1.5rem;
+   font-weight: normal;
+}
+
+.separete {
+   display: flex;
+   align-items: center;
+}
+
+.separete>p {
+   font-size: 0.8rem;
+   padding-left: 5px;
+}
+
+.ponto {
+   width: 10px;
+   height: 10px;
+   background-color: green;
+   border-radius: 50%;
+}
+
+#formDelet {
+   display: flex;
+}
+
+#btnDelet {
+   color: white;
+   margin-left: -57px;
+   border: none;
+   width: 30px;
+   height: 40px;
+   font-size: 10px;
+   cursor: pointer;
+}
+
+/* =============================================================*/
+
+.content-box-right {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.content-box-nav {
+   background-color: var(--bg-white);
+   height: 100px;
+   margin-bottom: 20px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   justify-content: space-evenly;
+}
+
+.content-box-feed {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 5px;
+   background-color: var(--bg-white);
+}
+
+.boxImg {
+   width: 90%;
+   margin-top: 20px;
+   height: 400px;
+}
+
+.text {
+   width: 90%;
+   margin-top: 20px;
+   text-align: justify;
+}
